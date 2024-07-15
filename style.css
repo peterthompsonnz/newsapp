@@ -1,0 +1,65 @@
+/* Box sizing reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding from body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the font family for all elements */
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Set the background color and text color for the body */
+body {
+  background-color: hsl(0, 0%, 97%);
+  color: hsl(0, 0%, 5%);
+}
+
+/* Set the font size and width for the main element */
+main {
+  font-size: 1.15rem;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 65ch;
+}
+
+/* Style the heading elements */
+h1,
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 3rem;
+  letter-spacing: 0.15rem;
+  margin: 0;
+  text-align: center;
+  text-shadow: 3px 3px 0 hsl(0, 0%, 50%);
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin: 1rem 0 0.5rem;
+}
+
+/* Style the header element */
+header {
+  background-color: hsl(0, 0%, 20%);
+  padding: 1.5rem 0.5rem;
+}
+
+/* Style the output element */
+.output {
+  margin: 2rem 0 1rem;
+}
+
